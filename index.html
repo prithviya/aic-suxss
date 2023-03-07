@@ -38,30 +38,67 @@
                     <div class="uk-navbar-right">
         
                         <ul class="uk-navbar-nav">
-                            <li class="uk-active">
+                            <li class="uk-active uk-visible@m">
                                 <a href="#" class="uk-text-capitalize">
                                     Home
                                 </a>
                             </li>
-                            <li>
+                            <li class="uk-visible@m">
                                 <a href="#about" class="uk-text-capitalize">
                                     About us
                                 </a>
                             </li>
-                            <li>
+                            <li class="uk-visible@m">
                                 <a href="#process" class="uk-text-capitalize">
                                     Process
                                 </a>
                             </li>
-                            <li>
+                            <li class="uk-visible@m">
                                 <a href="#" class="uk-text-capitalize">
                                     Partner
                                 </a>
                             </li>
-                            <li>
+                            <li class="uk-visible@m">
                                 <a href="#register" class="uk-text-capitalize">
                                     Register
                                 </a>
+                            </li>
+                            <li class="uk-hidden@m">
+                                <a uk-toggle="target: #offcanvas-nav-primary">
+                                    <img src="https://img.icons8.com/stencil/32/null/experimental-xbox-menu-stencil--v1.png"/>
+                                </a>
+                                <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+                                    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                                
+                                        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                                            <li class="uk-active">
+                                                <a href="#">
+                                                    Home
+                                                </a>
+                                            </li>
+                                            <li class="uk-active">
+                                                <a href="#about">
+                                                    About
+                                                </a>
+                                            </li>
+                                            <li class="uk-active">
+                                                <a href="#process">
+                                                    Process
+                                                </a>
+                                            </li>
+                                            <li class="uk-active">
+                                                <a href="#">
+                                                    Partner
+                                                </a>
+                                            </li>
+                                            <li class="uk-active">
+                                                <a href="#register">
+                                                    Register
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>

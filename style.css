@@ -35,7 +35,10 @@
 {
     background: var(--primarycolor) !important;
 }
-
+.uk-offcanvas-bar {
+    background: var(--secondary) !important;
+    overflow-y: auto;
+}
 #container 
 {
     margin: 0 auto;
