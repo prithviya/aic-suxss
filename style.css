@@ -9,6 +9,7 @@
 *
 {
     color: var(--black);
+    scroll-behavior: smooth;
 }
 .text-white
 {
@@ -81,4 +82,70 @@
 .uk-card-secondary.uk-card-body .uk-radio, .uk-card-secondary>:not([class*=uk-card-media]) .uk-checkbox, .uk-card-secondary>:not([class*=uk-card-media]) .uk-radio, .uk-light .uk-checkbox, .uk-light .uk-radio, .uk-offcanvas-bar .uk-checkbox, .uk-offcanvas-bar .uk-radio, .uk-overlay-primary .uk-checkbox, .uk-overlay-primary .uk-radio, .uk-section-primary:not(.uk-preserve-color) .uk-checkbox, .uk-section-primary:not(.uk-preserve-color) .uk-radio, .uk-section-secondary:not(.uk-preserve-color) .uk-checkbox, .uk-section-secondary:not(.uk-preserve-color) .uk-radio, .uk-tile-primary:not(.uk-preserve-color) .uk-checkbox, .uk-tile-primary:not(.uk-preserve-color) .uk-radio, .uk-tile-secondary:not(.uk-preserve-color) .uk-checkbox, .uk-tile-secondary:not(.uk-preserve-color) .uk-radio {
     background-color: rgb(2 2 2 / 10%) !important;
     border-color: rgb(4 4 4 / 20%) !important;
+}
+@font-face {
+    font-family: "TLP-handwritten";
+    font-style: normal;
+    font-weight: normal;
+    src: url("https://www.learningpeople.co.uk//fonts/throwmyhandsupintheair-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.learningpeople.co.uk//fonts/throwmyhandsupintheair-webfont.woff") format("woff"), url("https://www.learningpeople.co.uk//fonts/throwmyhandsupintheair-webfont.ttf") format("truetype"), url("https://www.learningpeople.co.uk//fonts/throwmyhandsupintheair-webfont.svg#throw_my_hands_up_in_the_aiRg") format("svg");
+}
+
+
+.custom-ol, ul{
+    padding-left:5px;
+}
+.custom-ol li
+{
+    list-style: none; 
+    padding: 10px 0 10px 40px; /*40 is width of img + some space*/
+    position: relative; 
+}
+ul li:before
+{
+	content: '';
+	background: url(https://www.learningpeople.co.uk/imgs/sprites.png);
+    background-position: -38px -26px;
+	height: 21px;
+	width: 29px;
+	position: absolute;
+	left: 0;
+	top: 8px;
+}
+
+.custom-ol li{
+    counter-increment: myIndex;
+}
+.custom-ol li:before
+{
+    content:counter(myIndex);
+    color:#fff;
+    background:#E81B28;
+    height:30px;
+    width:30px;
+    border-radius:25px 20px 25px 0px;
+    border:3px groove #E81B28;
+    font-size:25px;
+    text-align:center;
+    font-family: "TLP-handwritten";
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
+ul.tick-list{
+    padding-left:15px; 
+}
+
+ul.tick-list li{
+  padding: 8px 0px 8px 20px;
+}
+
+ul.tick-list li:before
+{
+	content: '✔';
+    color:#82b808;
+	background:none;
+	position: absolute;
+	left: 0px;
+	top: 8px;
 }
