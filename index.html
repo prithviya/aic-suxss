@@ -207,7 +207,7 @@
                             <div>
                                 <div class="uk-card uk-padding-small">
                                     <img src="https://img.icons8.com/external-photo3ideastudio-lineal-color-photo3ideastudio/64/null/external-technological-support-online-business-photo3ideastudio-lineal-color-photo3ideastudio.png"/>
-                                    <p class="uk-margin-small uk-text-bold">
+                                    <p class="uk-margin-small uk-text-bold text-black">
                                         Deep Tech
                                     </p>
                                 </div>
@@ -215,7 +215,7 @@
                             <div>
                                 <div class="uk-card uk-padding-small">
                                     <img src="https://img.icons8.com/external-ddara-lineal-color-ddara/64/null/external-carbon-leakage-carbon-dioxide-ddara-lineal-color-ddara.png"/>
-                                    <p class="uk-margin-small uk-text-bold">
+                                    <p class="uk-margin-small uk-text-bold text-black">
                                         Carbon tech
                                     </p>
                                 </div>
@@ -223,7 +223,7 @@
                             <div>
                                 <div class="uk-card uk-padding-small">
                                     <img src="https://img.icons8.com/pulsar-color/64/null/green-earth.png"/>
-                                    <p class="uk-margin-small uk-text-bold">
+                                    <p class="uk-margin-small uk-text-bold text-black">
                                         Sustainable based   
                                     </p>
                                 </div>
@@ -231,7 +231,7 @@
                             <div>
                                 <div class="uk-card uk-padding-small">
                                     <img src="https://img.icons8.com/external-filled-outline-geotatah/64/null/external-future-sustainable-competitive-advantage-filled-outline-filled-outline-geotatah.png"/>
-                                    <p class="uk-margin-small uk-text-bold">
+                                    <p class="uk-margin-small uk-text-bold text-black">
                                         Future tech
                                     </p>
                                 </div>
@@ -256,7 +256,7 @@
                 <div>
                     <div class="uk-card uk-card-body uk-card-hover" style="border-radius: 20px;">
                         <img src="https://img.icons8.com/color/48/null/signing-a-document.png"/>
-                        <h3 class="uk-margin-small">
+                        <h3 class="uk-margin-small text-black">
                             Registration
                         </h3>
                     </div>
@@ -264,7 +264,7 @@
                 <div>
                     <div class="uk-card uk-card-body uk-card-hover" style="border-radius: 20px;">
                         <img src="https://img.icons8.com/external-flat-wichaiwi/64/null/external-assessment-customer-validation-flat-wichaiwi-3.png"/>
-                        <h3 class="uk-margin-small">
+                        <h3 class="uk-margin-small text-black">
                             Validating the applications
                         </h3>
                     </div>
@@ -272,7 +272,7 @@
                 <div>
                     <div class="uk-card uk-card-body uk-card-hover" style="border-radius: 20px;">
                         <img src="https://img.icons8.com/external-wanicon-flat-wanicon/64/null/external-watching-daily-routine-wanicon-flat-wanicon.png"/>
-                        <h3 class="uk-margin-small">
+                        <h3 class="uk-margin-small text-black">
                             Pitching
                         </h3>
                     </div>
@@ -280,7 +280,7 @@
                 <div>
                     <div class="uk-card uk-card-body uk-card-hover" style="border-radius: 20px;">
                         <img src="https://img.icons8.com/color/48/null/theatre-stage.png"/>
-                        <h3 class="uk-margin-small">
+                        <h3 class="uk-margin-small text-black">
                             Penultimate Stage
                         </h3>
                     </div>
@@ -288,7 +288,7 @@
                 <div>
                     <div class="uk-card uk-card-body uk-card-hover" style="border-radius: 20px;">
                         <img src="https://img.icons8.com/color/48/null/new-year-calendar.png"/>
-                        <h3 class="uk-margin-small">
+                        <h3 class="uk-margin-small text-black">
                             Conclave day
                         </h3>
                     </div>
@@ -339,17 +339,26 @@
                             <div class="uk-width-1-2@s uk-margin-small">
                                 <input class="uk-input" type="text" placeholder="District" aria-label="50">
                             </div>
-                            <div class="uk-width-1-1@s uk-margin-small">
+                            <div class="uk-width-1-2@s uk-margin-small">
                                 <input class="uk-input" type="text" placeholder="LinkedIn" aria-label="50">
                             </div>
-                            <div class="uk-width-1-1@s uk-margin-small">
-                                <div class="uk-form-label">Startup Category</div>
-                                <label><input class="uk-radio" type="radio" name="radio1"> Greentech</label>
-                                <label><input class="uk-radio" type="radio" name="radio1"> Fintech</label>
-                                <label><input class="uk-radio" type="radio" name="radio1"> Healthtech/ Medtech</label><br>
-                                <label><input class="uk-radio" type="radio" name="radio1"> Futuretech (AI/ ML, Deep learning, web3, AR/ MR)</label><br>
-                                <label><input class="uk-radio" type="radio" name="radio1"> Sustainability</label><br>
-                            </div> 
+                            <div class="uk-width-1-2@s uk-margin-small">
+                                <div uk-form-custom="target: > * > span:first-child">
+                                    <select aria-label="Custom controls">
+                                        <option value="">Startup1 Category</option>
+                                        <option value="1"> Greentech</option>
+                                        <option value="2"> Fintech</option>
+                                        <option value="3">Healthtech/ Medtech</option>
+                                        <option value="4">Futuretech (AI/ ML, Deep learning, web3, AR/ MR)</option>
+                                        <option value="5">Sustainability</option>
+                                    </select>
+                                    <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                                        <span></span>
+                                        <span uk-icon="icon: chevron-down"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            
                             <div class="uk-width-1-1@s uk-margin-small">
                                 <button class="uk-button uk-button-danger uk-text-capitalize">Submit</button>
                             </div>

@@ -8,7 +8,7 @@
 }
 *
 {
-    color: var(--black);
+    /* color: var(--black); */
     scroll-behavior: smooth;
 }
 .text-white
@@ -85,6 +85,12 @@
 .uk-card-secondary.uk-card-body .uk-radio, .uk-card-secondary>:not([class*=uk-card-media]) .uk-checkbox, .uk-card-secondary>:not([class*=uk-card-media]) .uk-radio, .uk-light .uk-checkbox, .uk-light .uk-radio, .uk-offcanvas-bar .uk-checkbox, .uk-offcanvas-bar .uk-radio, .uk-overlay-primary .uk-checkbox, .uk-overlay-primary .uk-radio, .uk-section-primary:not(.uk-preserve-color) .uk-checkbox, .uk-section-primary:not(.uk-preserve-color) .uk-radio, .uk-section-secondary:not(.uk-preserve-color) .uk-checkbox, .uk-section-secondary:not(.uk-preserve-color) .uk-radio, .uk-tile-primary:not(.uk-preserve-color) .uk-checkbox, .uk-tile-primary:not(.uk-preserve-color) .uk-radio, .uk-tile-secondary:not(.uk-preserve-color) .uk-checkbox, .uk-tile-secondary:not(.uk-preserve-color) .uk-radio {
     background-color: rgb(2 2 2 / 10%) !important;
     border-color: rgb(4 4 4 / 20%) !important;
+}
+.uk-card-secondary.uk-card-body .uk-button-default, .uk-card-secondary>:not([class*=uk-card-media]) .uk-button-default, .uk-light .uk-button-default, .uk-offcanvas-bar .uk-button-default, .uk-overlay-primary .uk-button-default, .uk-section-primary:not(.uk-preserve-color) .uk-button-default, .uk-section-secondary:not(.uk-preserve-color) .uk-button-default, .uk-tile-primary:not(.uk-preserve-color) .uk-button-default, .uk-tile-secondary:not(.uk-preserve-color) .uk-button-default {
+    background-color: rgb(18 13 13 / 50%) !important;
+    color: #f7f7f7 !important;
+    background-clip: padding-box;
+    border-color: rgb(18 14 14 / 20%);
 }
 @font-face {
     font-family: "TLP-handwritten";
