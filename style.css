@@ -69,3 +69,16 @@
     left: -100%;
     z-index: -999;
 }  
+.uk-card-primary.uk-card-body .uk-input, .uk-card-primary.uk-card-body .uk-select, .uk-card-primary.uk-card-body .uk-textarea, .uk-card-primary>:not([class*=uk-card-media]) .uk-input, .uk-card-primary>:not([class*=uk-card-media]) .uk-select, .uk-card-primary>:not([class*=uk-card-media]) .uk-textarea, .uk-card-secondary.uk-card-body .uk-input, .uk-card-secondary.uk-card-body .uk-select, .uk-card-secondary.uk-card-body .uk-textarea, .uk-card-secondary>:not([class*=uk-card-media]) .uk-input, .uk-card-secondary>:not([class*=uk-card-media]) .uk-select, .uk-card-secondary>:not([class*=uk-card-media]) .uk-textarea, .uk-light .uk-input, .uk-light .uk-select, .uk-light .uk-textarea, .uk-offcanvas-bar .uk-input, .uk-offcanvas-bar .uk-select, .uk-offcanvas-bar .uk-textarea, .uk-overlay-primary .uk-input, .uk-overlay-primary .uk-select, .uk-overlay-primary .uk-textarea, .uk-section-primary:not(.uk-preserve-color) .uk-input, .uk-section-primary:not(.uk-preserve-color) .uk-select, .uk-section-primary:not(.uk-preserve-color) .uk-textarea, .uk-section-secondary:not(.uk-preserve-color) .uk-input, .uk-section-secondary:not(.uk-preserve-color) .uk-select, .uk-section-secondary:not(.uk-preserve-color) .uk-textarea, .uk-tile-primary:not(.uk-preserve-color) .uk-input, .uk-tile-primary:not(.uk-preserve-color) .uk-select, .uk-tile-primary:not(.uk-preserve-color) .uk-textarea, .uk-tile-secondary:not(.uk-preserve-color) .uk-input, .uk-tile-secondary:not(.uk-preserve-color) .uk-select, .uk-tile-secondary:not(.uk-preserve-color) .uk-textarea {
+    background-color: rgb(18 13 13 / 50%) !important;
+    color: rgb(21 19 19 / 70%) !important;
+    background-clip: padding-box;
+    border-color: rgb(18 14 14 / 20%);
+}
+.uk-card-primary.uk-card-body .uk-form-label, .uk-card-primary > :not([class*="uk-card-media"]) .uk-form-label, .uk-card-secondary.uk-card-body .uk-form-label, .uk-card-secondary > :not([class*="uk-card-media"]) .uk-form-label, .uk-light .uk-form-label, .uk-offcanvas-bar .uk-form-label, .uk-overlay-primary .uk-form-label, .uk-section-primary:not(.uk-preserve-color) .uk-form-label, .uk-section-secondary:not(.uk-preserve-color) .uk-form-label, .uk-tile-primary:not(.uk-preserve-color) .uk-form-label, .uk-tile-secondary:not(.uk-preserve-color) .uk-form-label {
+    color: #252525 !important;
+}
+.uk-card-secondary.uk-card-body .uk-radio, .uk-card-secondary>:not([class*=uk-card-media]) .uk-checkbox, .uk-card-secondary>:not([class*=uk-card-media]) .uk-radio, .uk-light .uk-checkbox, .uk-light .uk-radio, .uk-offcanvas-bar .uk-checkbox, .uk-offcanvas-bar .uk-radio, .uk-overlay-primary .uk-checkbox, .uk-overlay-primary .uk-radio, .uk-section-primary:not(.uk-preserve-color) .uk-checkbox, .uk-section-primary:not(.uk-preserve-color) .uk-radio, .uk-section-secondary:not(.uk-preserve-color) .uk-checkbox, .uk-section-secondary:not(.uk-preserve-color) .uk-radio, .uk-tile-primary:not(.uk-preserve-color) .uk-checkbox, .uk-tile-primary:not(.uk-preserve-color) .uk-radio, .uk-tile-secondary:not(.uk-preserve-color) .uk-checkbox, .uk-tile-secondary:not(.uk-preserve-color) .uk-radio {
+    background-color: rgb(2 2 2 / 10%) !important;
+    border-color: rgb(4 4 4 / 20%) !important;
+}
